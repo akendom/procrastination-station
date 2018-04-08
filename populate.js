@@ -46,7 +46,7 @@ function toFacebook() {
   var userInput2 = document.getElementById('userInput2').value;
   var userInput3 = document.getElementById('userInput3').value;
   if ((userInput1 == resultMult) && (userInput2 == resultAdd)&& (userInput3 == resultExp)){
-    window.location = "https://facebook.com";
+    window.location = "https://facebook.com/?magicstring/";
     alert("Have fun!...wasting your life")
         }
     else{
