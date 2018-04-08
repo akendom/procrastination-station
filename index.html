@@ -1,0 +1,56 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Procrastination Pop-up</title>
+    <meta name="description" content=" Must Finish this to move on the the next page">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  
+  
+  <body onload="onLoad();">
+    <p><center class="bold"><big>Do you really need to be here?</big></center></p>
+    <p><center> If you must pass, answer these problems before Crasty the Goat can eat Facebook!:</center></p>
+      <form>
+       
+        <div id = "question1"> 
+        </div>
+        <input type="text" id="userInput1" maxlength="100" placeholder="Answer 1">
+        <div id = "question2"> 
+        </div>
+        <input type="text" id="userInput2" maxlength="100" placeholder="Answer 2">
+         <div id = "question3"> 
+        </div>
+        <input type="text" id="userInput3" maxlength="100" placeholder="Answer 3">
+        <input type="button" onclick ="toFacebook();" value="Procrastinate Away" style="background-color:LightGreen"> 
+      </form>
+    <header>
+      <h1>
+        <div id= "clocky" style="background-color:NavajoWhite">
+        </div>
+      </h1>
+    </header>
+
+
+
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/populate.js"></script>
+  </body>
+</html>
