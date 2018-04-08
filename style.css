@@ -4,16 +4,11 @@
 /* You might want to try something fancier: */
 /* less: http://lesscss.org/ */
 
-* {
-  box-sizing: border-box;
-  text-align: center;
-  background-color: BlanchedAlmond;
-}
-
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 115px;
+  margin: 20px;
   background-color: BlanchedAlmond;
+  text-align: center;
 }
 
 
@@ -21,13 +16,18 @@ h1 {
   font-weight: bold;
   color: LightSalmon;
 }
+h2 {
+   margin-top: 50px;
+   font-family:"Press Start 2P", cursive; font-size: 60px; 
+   line-height: 1.5;
+}
 
 .bold {
   font-weight: bold;
 }
 
 p {
-  max-width: 600px;
+  max-width: 400px;
 }
 
 form {

@@ -47,9 +47,9 @@ function toFacebook() {
   var userInput3 = document.getElementById('userInput3').value;
   if ((userInput1 == resultMult) && (userInput2 == resultAdd)&& (userInput3 == resultExp)){
     window.location = "https://facebook.com";
-    alert("Have fun!")
+    alert("Have fun!...wasting your life")
         }
     else{
-      alert("WROOOONNNGG!");
+      alert("WROOOONNNGG! Obviously you don't want this enough...");
          }
  }

@@ -17,13 +17,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">    
+	<link rel="stylesheet" href="style.css"> 
+
   </head>
   
   
   <body onload="onLoad();">
-    <p><center class="bold"><big>Do you really need to be here?</big></center></p>
+    <p><center class="bold"><h2 style="margin-bottom:20px;">Do you really need to be here?</h2></center></p>
     <p><center> If you must pass, answer these problems before Crasty the Goat can eat Facebook!:</center></p>
+      
+    <div class="row">
+      <div class="col-md-4">
+        <img src="fbgoat.png" alt="Facebook Goat" height="300px" width="auto">
+    </div>
+      <div class="col-md-4">
       <form>
        
         <div id = "question1"> 
@@ -36,7 +44,12 @@
         </div>
         <input type="text" id="userInput3" maxlength="100" placeholder="Answer 3">
         <input type="button" onclick ="toFacebook();" value="Procrastinate Away" style="background-color:LightGreen"> 
-      </form>
+      </form></div>
+      <div class="col-md-4">
+         <img src="mediachest.png" alt="Media Chest" height="300px" width="auto">
+      </div>
+   </div>
+	
     <header>
       <h1>
         <div id= "clocky" style="background-color:NavajoWhite">
