@@ -45,12 +45,6 @@ function toFacebook() {
   var userInput1 = document.getElementById('userInput1').value;
   var userInput2 = document.getElementById('userInput2').value;
   var userInput3 = document.getElementById('userInput3').value;
-  console.log(userInput1);
-  console.log(resultMult);
-  console.log(userInput2);
-  console.log(resultAdd);
-  console.log(userInput3);
-  console.log(resultExp);
   if ((userInput1 == resultMult) && (userInput2 == resultAdd)&& (userInput3 == resultExp)){
     window.location = "https://facebook.com";
     alert("Have fun!")
